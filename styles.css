@@ -1,6 +1,13 @@
 body {
-    background: #222221;
+    background: #222222;
     color: #d1d0ca;
     font-family: Helvetica;
     margin: 0;
-  }
+}
+
+#logo {
+    width: max(100px, 18vw);
+    background-color: #222222;
+    aspect-ratio: 35 / 4;
+    padding: 0.4rem;
+}
