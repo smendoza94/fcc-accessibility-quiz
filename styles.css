@@ -22,6 +22,14 @@ h1 {
     font-size: min(5vw, 1.2em);
 }
 
+h2 {
+  border-bottom: 4px solid #dfdfe2;
+}
+
+h1, h2 {
+    font-family: Verdana, Tahoma;
+}
+
 nav > ul {
     display: flex;
     justify-content: space-evenly;
