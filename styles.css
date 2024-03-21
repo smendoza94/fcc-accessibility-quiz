@@ -29,6 +29,24 @@ nav > ul {
     justify-content: space-evenly;
 }
 
+nav > ul > li {
+    color: #d1d0ca;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+nav > ul > li:hover {
+    color: #222222;
+    background-color: #d1d0ca;
+    cursor: pointer;
+}
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
 p::before {
     content: "Question #";
 }
